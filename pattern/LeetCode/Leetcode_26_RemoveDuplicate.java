@@ -1,5 +1,5 @@
-// Leetcode 1: Two Sum
-// Link : https://leetcode.com/problems/two-sum
+// Leetcode 26: Remove Duplicates from Sorted Array
+// Link : https://leetcode.com/problems/remove-duplicates-from-sorted-array
 // Difficulty : Easy
 // Approach : Two Pointer
 // Time Complexity : O(n), Space Complexity : O(1)
