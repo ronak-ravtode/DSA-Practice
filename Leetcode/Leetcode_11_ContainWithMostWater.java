@@ -3,7 +3,7 @@
 // Difficulty : Medium
 // Approach : Two Pointer
 // Time Complexity : O(n), Space Complexity : O(1)
-package LeetCode;
+package Leetcode_temp;
 
 public class Leetcode_11_ContainWithMostWater {
     class Solution {
