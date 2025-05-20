@@ -1,0 +1,29 @@
+// Leetcode 42: Trapping Rain Water
+// Link : https://leetcode.com/problems/problems/trapping-rain-water
+// Difficulty : Hard
+// Approach : Auxiliary Array
+// Time Complexity : O(n), Space Complexity : O(n)
+package LeetCode;
+
+public class Leetcode_42_TrappingRainWater{
+class Solution {
+    public int trap(int[] height) {
+        int n=height.length;
+        int left[]=new int[n];
+        left[0]=height[0];
+        for(int i=1;i<n;i++){
+            left[i]=Math.max(height[i],left[i-1]);
+        }
+        int right[]=new int[n];
+        right[n-1]=height[n-1];
+        for(int i=n-2;i>=0;i--){
+            right[i]=Math.max(height[i],right[i+1]);
+        }
+        int MaxWater=0;
+        for(int i=0;i<height.length;i++){
+            MaxWater+=Math.min(left[i],right[i])-height[i];
+        }
+        return MaxWater;
+    }
+}
+}
