@@ -3,7 +3,6 @@
 // Difficulty : Easy
 // Approach : Use Brute Force
 // Time Complexity : O(n^2), Space Complexity : O(1)
-package Leetcode_temp;
 
 public class Leetcode_1_PairSum {
     class Solution {
