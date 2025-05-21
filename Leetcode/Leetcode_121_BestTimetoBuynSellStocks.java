@@ -1,4 +1,4 @@
-// Leetcode 42: Best Time to Buy and Sell Stock
+// Leetcode 121: Best Time to Buy and Sell Stock
 // Link : https://leetcode.com/problems/problems/best-time-to-buy-and-sell-stock
 // Difficulty : Easy
 // Approach : Simple Buy and Sell Concept
