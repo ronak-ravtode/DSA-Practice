@@ -1,9 +1,9 @@
-// Leetcode 26: Remove Duplicates from Sorted Array
+// Leetcode 27: Remove Duplicates from Sorted Array
 // Link : https://leetcode.com/problems/remove-element
 // Difficulty : Easy
 // Approach : Two Pointer
 // Time Complexity : O(n), Space Complexity : O(1)
-public class Leetcode_26_RemoveElement{
+public class Leetcode_27_RemoveElement{
     class Solution {
     public int removeDuplicates(int[] nums) {
         int j=0;
