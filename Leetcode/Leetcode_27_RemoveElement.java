@@ -1,4 +1,4 @@
-// Leetcode 27: Remove Duplicates from Sorted Array
+// Leetcode 26: Remove Element
 // Link : https://leetcode.com/problems/remove-element
 // Difficulty : Easy
 // Approach : Two Pointer
