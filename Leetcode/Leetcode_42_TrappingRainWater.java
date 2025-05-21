@@ -3,7 +3,6 @@
 // Difficulty : Hard
 // Approach : Auxiliary Array
 // Time Complexity : O(n), Space Complexity : O(n)
-package Leetcode_temp;
 
 public class Leetcode_42_TrappingRainWater{
 class Solution {
