@@ -3,8 +3,7 @@
 // Difficulty : Easy
 // Approach : Two Pointer
 // Time Complexity : O(n), Space Complexity : O(1)
-package Leetcode_temp;
-public class Leetcode_26_RemoveDuplicate{
+public class Leetcode_26_RemoveElement{
     class Solution {
     public int removeDuplicates(int[] nums) {
         int j=0;
