@@ -2,7 +2,7 @@ public class TowerOfHanoi {
     public static void StepForPowerOfHanoi(int n,char s,char h,char d){
         if(n==1){
             System.out.println(s+"->"+d);
-            return;
+            return; 
         }
         StepForPowerOfHanoi(n-1, s, d, h);
         System.out.println(s+"->"+d);
