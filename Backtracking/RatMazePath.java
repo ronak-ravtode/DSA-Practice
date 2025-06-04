@@ -44,7 +44,6 @@ public class RatMazePath {
             {0,1,0,0},
             {1,1,1,1},
         };
-        int n=maze.length;
         SolveMaze(maze);
     }
 }
