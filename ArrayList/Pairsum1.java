@@ -6,7 +6,7 @@ public class Pairsum1 {
             if(list.get(i)+list.get(j)==target){
                 System.out.println("("+i+", "+j+")");
             }
-            if(list.get(i)+list.get(j)<=target) i++;
+            if(list.get(i)+list.get(j)<target) i++;
             else j--;
         }
     }
