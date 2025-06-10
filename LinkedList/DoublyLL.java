@@ -64,7 +64,7 @@ public class DoublyLL {
             return Integer.MIN_VALUE;
         }
         else if(size==1){
-            int value=head.data;
+            int value=tail.data;
             head=tail=null;
             size--;
             return value;
